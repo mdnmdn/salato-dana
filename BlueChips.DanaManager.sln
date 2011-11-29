@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueChips.DanaManager.MainApp", "BlueChips.DanaManager.MainApp\BlueChips.DanaManager.MainApp.csproj", "{E0D18C70-C4F4-4842-B8F0-C676431F5AFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{C49B8427-BF13-4B54-B7A0-3846D35D6C2C}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\Excel.dll = DLL\Excel.dll
+		DLL\Fluent.dll = DLL\Fluent.dll
+		DLL\ICSharpCode.SharpZipLib.dll = DLL\ICSharpCode.SharpZipLib.dll
+		DLL\Odyssey.dll = DLL\Odyssey.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0D18C70-C4F4-4842-B8F0-C676431F5AFB}.Debug|x86.ActiveCfg = Debug|x86
+		{E0D18C70-C4F4-4842-B8F0-C676431F5AFB}.Debug|x86.Build.0 = Debug|x86
+		{E0D18C70-C4F4-4842-B8F0-C676431F5AFB}.Release|x86.ActiveCfg = Release|x86
+		{E0D18C70-C4F4-4842-B8F0-C676431F5AFB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
